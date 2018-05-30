@@ -17,4 +17,7 @@ print(vv, len(vv))
 
 vvv = test1.expandtabs()
 print(vvv,len(vvv))
+vvvv = test1.expandtabs(9)
+print(vvvv)
+
 
