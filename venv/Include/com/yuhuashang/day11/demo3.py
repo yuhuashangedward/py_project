@@ -10,7 +10,7 @@
 # r4 = test.index('wonderful')
 # print(r3)
 # print(r4)
-
+#
 # test1 = "The development {org} consists of a large global collective of expert {res} and researchers"
 # # 格式化1：format()
 # r1 = test1.format(org = 'team', res = 'engineers')
