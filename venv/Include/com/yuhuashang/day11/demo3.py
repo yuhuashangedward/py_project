@@ -237,3 +237,11 @@
 #     print(z)
 #
 # for对其他数据类型也使用，如集合、元祖等。
+
+name = "Alex"
+age = "18"
+info = name + age
+print(info)
+print(name)
+name = name + "Edward"
+print(name)
