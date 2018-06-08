@@ -112,3 +112,128 @@
 # t1 = "ETH"
 # r1 = t1.join(test1)
 # print(r1)
+
+# # 字母、数字、下划线
+# test = "RELEASE NOTES"
+# print(test.isidentifier())
+# test1 = "1Cardano_"
+# print(test1.isidentifier())
+# test2 = "Cardano"
+# print(test2.isidentifier())
+# test3 = "Cardano123"
+# print(test3.isidentifier())
+# test4 = "_Cardano"
+# print(test4.isidentifier())
+# test5 = "_Cardano26"
+# print(test5.isidentifier())
+
+# test = "w253gefrhjg_6"
+# print(test.isidentifier())
+
+# test = "alex"
+# r = test.ljust(20, "*")
+# print(r)
+# r1 = test.rjust(20, "@")
+# print(r1)
+# # 默认填充0
+# r2 = test.zfill(20)
+# print(r2)
+# # 默认填充空格
+# r3 = test.rjust(20)
+# print(r3)
+# r4 = test.ljust(20)
+# print(r4)
+
+# test = "Alex"
+# r0 = test.islower()
+# r1 = test.isupper()
+# print(r0, r1)
+#
+# rr = test.upper()
+# print(rr)
+# gg = test.lower()
+# print(gg)
+
+# test = " Ale X "
+# r1 = test.lstrip()
+# r2 = test.rstrip()
+# r3 = test.strip()
+# print(r1, r2, r3)
+
+# test = "Cardano"
+# test1 = "Superma"
+# # 设定规则
+# m = str.maketrans(test, test1)
+# v = "Cardano is a company"
+# # 按规则匹配
+# new_v = v.translate(m)
+# print(new_v)
+
+# test = "HelloWorld!"
+# r1 = test.partition('w')
+# # ('HelloWorld!', '', '')
+# print(r1)
+# r2 = test.rpartition('W')
+# # ('Hello', 'W', 'orld!')
+# print(r2)
+# r3 = test.split('W')
+# # ['Hello', 'orld!']
+# print(r3)
+#
+# demo = "hello\nworld"
+# r4 = demo.splitlines()
+# # ['hello', 'world']
+# print(r4)
+
+# test = "Hello World"
+# r1 = test.startswith('H')
+# r2 = test.endswith('D')
+# print(r1, r2)
+
+# test = "Hello World!"
+# r = test.swapcase()
+# # hELLO wORLD!
+# print(r)
+
+# test = "alexalexalex"
+# v = test.replace('ex', 'c2c', 1)
+# # alc2calexalex
+# print(v)
+
+# test = "alexalex"
+# r = test[2]
+# # e
+# print(r)
+
+# test = "alexalex"
+# # ale
+# r = test[0:3]
+# # alexale
+# r1 = test[0:-1]
+# print(r, r1)
+
+# test = "alex"
+# r = len(test)
+# # 4
+# print(r)
+#
+# test1 = "国③Ⅱ"
+# r1 = len(test1)
+# # 3
+# print(r1)
+#
+# # 对其他数据类型也可用
+
+# test = "ThreadLocal"
+# # while循环
+# index = 0
+# while index < len(test):
+#     r = test[index]
+#     print(r)
+#     index += 1
+#
+# # for循环
+# for z in test:
+#     print(z)
+#
+# for对其他数据类型也使用，如集合、元祖等。
