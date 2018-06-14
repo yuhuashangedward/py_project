@@ -12,3 +12,4 @@ if name == "alex" and pwd =="cmd":
     print("欢迎，alex!")
 else:
     print("用户名和密码错误")
+
