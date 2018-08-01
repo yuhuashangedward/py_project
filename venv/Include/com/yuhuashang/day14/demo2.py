@@ -52,10 +52,32 @@
 # names = ['alex', 'alex', 'wupeiqi']
 # names = list(set(names))
 # print(names)
+#
+# msg = "i am \033[42;1m%(name)+60s\033[0m my hobby is alex" %{"name":"lhf"}
+# print(msg)
+#
+# print('root','x','0','0',sep=':')
 
-msg = "i am \033[42;1m%(name)+60s\033[0m my hobby is alex" %{"name":"lhf"}
-print(msg)
+# tpl = "i am {}, age {}".format("Steven", 18)
+# print(tpl)
 
-print('root','x','0','0',sep=':')
+# tpl = "i am {1}, age {0}".format("Steven", 18)
+# print(tpl)
 
+# tpl = "i am {name}, age {age}".format(name="Steven", age=18)
+# print(tpl)
+#
+# tpl = "i am {name}, age {age}".format(**{"name":"Steven", "age":18})
+# print(tpl)
 
+# tpl = "i am {0[0]}, age {0[1]}, really {0[2]}".format([1, 2, 3], [11, 22, 33])
+# print(tpl)
+#
+# tpl = "i am {:s}, age {:d}, really {:f}".format("seven", 18, 6876.67)
+# print(tpl)
+#
+# tpl = "i am {:s}, age {:d}, really {:f}".format(*["seven", 18, 6876.67])
+# print(tpl)
+
+tpl = "numbers: {:b}, {:o}, {:d}, {:x}, {:X}, {:%}".format(15, 15, 10, 16, 12, 12.534)
+print(tpl)
